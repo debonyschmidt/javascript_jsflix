@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <link rel="stylesheet" href="jsflix-css/glide.core.css">
+  <link rel="stylesheet" href="jsflix-css/glide.theme.css">
+  <link rel="stylesheet" href="jsflix-css/style.css">
+
+  <title>JSFlix - Movies</title>
+</head>
+
+<body>
+  
+  <header class="header">
+    <div class="header-logo">
+      <img src="jsflix-images/jsflix-logo.png" alt="JSFlix">
+    </div>
+    
+    <div class="movies-menus">
+      <button class="movies-menus-btn" id="home-btn-home">Home</button>
+      <button class="movies-menus-btn" id="home-btn-tv">TV Shows</button>
+      <button class="movies-menus-btn" id="home-btn-movies">Movies</button>
+      <button class="movies-menus-btn" id="home-btn-recently">Recently Added</button>
+      <button class="movies-menus-btn" id="home-btn-mylist">Mylist</button>
+    </div>
+
+    <div class="movies-user">
+      <button class="movies-btn-notifications" id="headerBtnNotifications"><i class="fas fa-bell"></i></button>
+        <div class="movies-profile">
+            <span class="movies-btn-user"></span>
+            <span class="movies-btn-arrow"><i class="fas fa-caret-down"></i></span>
+        </div>
+    </div>
+  </header>
+  
+  <footer class="movies-footer">
+      <div class="glide">
+          <div class="glide__track" data-glide-el="track" id="slide">
+            <ul class="glide__slides">
+              <li class="glide__slide"><img src="jsflix-movies/movie1.jpg"></li>
+              <li class="glide__slide"><img src="jsflix-movies/movie2.jpg"></li>
+              <li class="glide__slide"><img src="jsflix-movies/movie3.jpg"></li>
+              <li class="glide__slide"><img src="jsflix-movies/movie4.jpg"></li>
+              <li class="glide__slide"><img src="jsflix-movies/movie5.jpg"></li>
+              <li class="glide__slide"><img src="jsflix-movies/movie6.jpg"></li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+          </div>
+        </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script src="moviescript.js"></script>
+
+</body>
+
+</html>

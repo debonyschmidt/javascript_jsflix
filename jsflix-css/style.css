@@ -1,0 +1,221 @@
+
+/* Global */
+
+html{
+    height: 100%;
+    width: 100%
+}
+
+body{
+    height: 95%;
+    margin: 0;
+    background-image: url('../jsflix-images/hero-bg.png'), linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    background-blend-mode: overlay;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    height: 60px;;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Home Page */
+
+.home-btn-login{
+    font-size: 14px;
+    color: #625928;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: 1px solid #f6d515;
+    background-color: #f6d515;   
+}
+
+.home-content-index{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 100px);
+    color: white;
+}
+
+.home-content-h1{
+    margin: 0px;
+    font-size: 60px;
+    text-shadow: 2px 2px black;
+}
+
+.home-content-p{
+    margin: 0px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    text-shadow: 2px 2px black;
+}
+
+.home-btn-trial{
+    font-size: 14px;
+    color: #625928;
+    padding: 15px 100px;
+    border-radius: 3px;
+    border: 1px solid #f6d515;
+    background-color: #f6d515;   
+}
+
+.home-btn-trial-icon{
+   position: relative;
+   top: 1px;
+   left: 50px;
+   font-size: 15px;
+}
+
+/* Login Page */
+
+.login-btn-back{
+    display: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #f6d515;
+    padding: 10px 30px;
+    text-shadow: 2px 2px black;
+}
+
+.back-home-icon{
+    position: relative;
+    top: 1px;
+    right: 10px;
+    font-size: 15px;
+}
+
+.login-content{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 100px);
+    color: white;
+}
+
+.login-container{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 350px;
+    height: 355px;   
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.login-div{
+    margin: 17px; 
+    width:  100%;
+}
+
+.login-label{
+    font-size: 14px;
+}
+
+.login-input{
+    display: block;
+    width: 100%;
+    height: 37px;
+    border-radius: 3px;
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.login-btn{
+    font-size: 14px;
+    font-weight: bold;
+    color: #625928;
+    opacity: 1;
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #f6d515;
+    background-color: #f6d515;   
+}
+
+/* Movies Page */
+
+.movies-menus{
+    height: 60px;
+    width: 850px;
+    display:flex;
+    float: left;
+    align-self: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.movies-menus-btn{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 14px;
+    text-shadow: 2px 2px black;
+}
+
+.movies-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.movies-btn-notifications{
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.movies-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.movies-btn-user{
+    background-image: url('../jsflix-images/profile.jpg');
+    border-radius: 50% 50%;
+    border: none;
+    background-size: cover;
+    width:40px;
+    height:40px;
+}
+
+.movies-btn-arrow{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.movies-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+

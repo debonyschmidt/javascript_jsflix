@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="jsflix-css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <title>JSFlix</title>
+</head>
+
+<body>
+  
+  <header class="header">
+    <div class="header-logo">
+      <img src="jsflix-images/jsflix-logo.png" alt="JSFlix">
+    </div>
+
+    <div class="header-login">
+      <button class="home-btn-login" id="homeBtnLogin">Login</button>
+      <button class="login-btn-back" id="loginBtnBack"><i class="fas fa-chevron-left back-home-icon"></i>Back to home</buton>
+    </div>
+  </header>
+  
+  <section class="home-content-index" id="indexSection">
+    <h1 class="home-content-h1">See what's next.</h1>
+    <p class="home-content-p">Watch anywhere. Cancel at anytime.</p>
+    <button class="home-btn-trial">Try 30 days free<i class="fas fa-chevron-right home-btn-trial-icon"></i></button>
+  </section>
+
+  <section class="login-content" id="loginSection">
+    <div class="login-container">
+      <form class="login-form" id="loginForm">
+              <div class="login-div">
+                  <label class="login-label">Email</label>
+                  <input name="input-email" id="input-email" class="login-input" />
+              </div>
+              <div class="login-div">
+                  <label class="login-label">Password</label>
+                  <input name="input-password" id="input-password" class="login-input"/>
+              </div>
+              <div class="login-div">
+                  <button class="login-btn" id="confirmLogin">Login</button>
+              </div>
+              <div id = "app">       
+              </div>
+    </div>
+  </section>
+
+  <!-- <div id="loader" class="loader"></div> -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
