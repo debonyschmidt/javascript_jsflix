@@ -9,7 +9,8 @@ html{
 body{
     height: 95%;
     margin: 0;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7));
+    background-image: url('../jsflix-images/hero-bg.png'), linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; 
@@ -110,43 +111,39 @@ body{
 
 .login-container{
     background-color: rgba(0, 0, 0, 0.4);
-    width: 350px;
-    height: 355px;   
-}
-
-.login-form{
+    width: 270px;
+    height: 250px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 40px;
+    flex-direction: column;
+    align-items: left;
+    align-content: space-between;
+    justify-content: space-between;
 }
-
-.login-div{
-    margin: 17px; 
-    width:  100%;
+.form-login{
+    width: 270px;
 }
-
-.login-label{
+.login-container label{
+    width: 270px;
     font-size: 14px;
 }
 
-.login-input{
+.login-container input{
+    width: 270px;
     display: block;
-    width: 100%;
     height: 37px;
     border-radius: 3px;
     margin-top: 3px;
     font-size: 14px;
 }
 
-.login-btn{
+.login-container button{
+    width: 270px;
+    height: 50px;
     font-size: 14px;
     font-weight: bold;
     color: #625928;
     opacity: 1;
-    width: 100%;
-    height: 50px;
     border-radius: 3px;
     border: 1px solid #f6d515;
     background-color: #f6d515;   
@@ -217,4 +214,6 @@ body{
     align-items: center;
 }
 
-
+.glide__slide {
+    height: 160px;
+}
